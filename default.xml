@@ -34,5 +34,4 @@
   <project remote="wolfgar" revision="daisy" name="meta-stef" path="sources/meta-stef"/>
 
   <project remote="sno" revision="daisy" name="meta-jens" path="sources/meta-jens"/>
-
 </manifest>
