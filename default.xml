@@ -28,7 +28,7 @@
   <project remote="OSSystems" revision="daisy" name="meta-browser" path="sources/meta-browser" />
 
   <project remote="woglinde" revision="daisy" name="meta-java" path="sources/meta-java"/>
-  <project remote="wolfgar" revision="daisy" name="meta-stef" path="sources/meta-stef"/>
+  <project remote="sno" revision="daisy" name="meta-stef" path="sources/meta-stef"/>
 
   <project remote="sno" revision="daisy" name="meta-jens" path="sources/meta-jens"/>
 </manifest>
