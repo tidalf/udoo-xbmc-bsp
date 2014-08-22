@@ -28,7 +28,7 @@
   <project remote="OSSystems" revision="master" name="meta-browser" path="sources/meta-browser" />
 
   <project remote="woglinde" revision="dora" name="meta-java" path="sources/meta-java"/>
-  <project remote="sno" revision="default" name="meta-cpan" path="sources/meta-cpan"/>
+  <project remote="sno" revision="master" name="meta-cpan" path="sources/meta-cpan"/>
 
   <!-- <project remote="wolfgar" revision="daisy" name="meta-jens" path="sources/meta-stef"/> -->
   <project remote="sno" revision="daisy" name="meta-stef" path="sources/meta-stef"/>
