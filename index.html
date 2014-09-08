@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Udoo-xbmc-bsp by tidalf</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Udoo-xbmc-bsp</h1>
+        <p>BSP platform manifest</p>
+        <p class="view"><a href="https://github.com/tidalf/udoo-xbmc-bsp">View the Project on GitHub <small>tidalf/udoo-xbmc-bsp</small></a></p>
+        <ul>
+          <li><a href="https://github.com/tidalf/udoo-xbmc-bsp/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/tidalf/udoo-xbmc-bsp/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/tidalf/udoo-xbmc-bsp">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
+<a name="freescales-community-yocto-bsp-updated-to-add-meta-tid" class="anchor" href="#freescales-community-yocto-bsp-updated-to-add-meta-tid"><span class="octicon octicon-link"></span></a>Freescale's Community Yocto BSP (updated to add meta-tid)</h3>
+
+<p>This BSP use freescale's one and add support for udoo board and xbmc 
+It's forked from the work of Wolfgar (<a href="https://github.com/wolfgar">https://github.com/wolfgar</a>) and Rehsack (<a href="https://github.com/rehsack">https://github.com/rehsack</a>)</p>
+
+<p>To get the BSP you need to have <code>repo</code> installed and use it as:</p>
+
+<p>Install the <code>repo</code> utility:</p>
+
+<pre><code>$: mkdir ~/bin
+$: curl http://commondatastorage.googleapis.com/git-repo-downloads/repo &gt; ~/bin/repo
+$: chmod a+x ~/bin/repo
+</code></pre>
+
+<p>Download the BSP source:</p>
+
+<pre><code>$: PATH=${PATH}:~/bin
+$: mkdir fsl-community-bsp
+$: cd fsl-community-bsp
+$: repo init -u https://github.com/tidalf/fsl-community-bsp-platform -b daisy
+$: repo sync
+</code></pre>
+
+<p>Once this has complete, you will have all you need. To start a build, do:
+we remove the original bblayers.conf so the one in meta-tid/conf is used</p>
+
+<p>$: rm sources/base/conf/bblayers.conf<br>
+$: TEMPLATECONF=<code>pwd</code>/sources/meta-tid/conf MACHINE=udoo-quad source setup-environment build
+$: bitbake minixbmc</p>
+
+<p>You can use any directory to host your build.</p>
+
+<p>The source code will be checked out at fsl-community-bsp/sources.</p>
+
+<h3>
+<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing</h3>
+
+<p>Contributions are welcome (use github fork and PR)</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/tidalf">tidalf</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
