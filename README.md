@@ -4,6 +4,15 @@
 This BSP use freescale's one and add support for udoo board and xbmc 
 It's forked from the work of Wolfgar (https://github.com/wolfgar) and Rehsack (https://github.com/rehsack)
 
+You can learn Yocto here : http://www.yoctoproject.org/docs/current/yocto-project-qs/yocto-project-qs.html
+
+If you want to try without reading you can on debian or ubuntu install the required packages like that : 
+
+```
+sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib \
+     build-essential chrpath libsdl1.2-dev xterm
+```
+
 To get the BSP you need to have `repo` installed and use it as:
 
 Install the `repo` utility:
