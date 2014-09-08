@@ -1,4 +1,5 @@
-# Freescale's Community Yocto BSP (updated to add meta-tid) 
+# Udoo xbmc BSP
+(based on freescale's community yocto bsp)
 
 This BSP use freescale's one and add support for udoo board and xbmc 
 It's forked from the work of Wolfgar (https://github.com/wolfgar) and Rehsack (https://github.com/rehsack)
