@@ -26,9 +26,11 @@ repo sync
 Once this has complete, you will have all you need. To start a build, do:
 we remove the original bblayers.conf so the one in meta-tid/conf is used
 
+``` 
 rm sources/base/conf/bblayers.conf                 
 TEMPLATECONF=`pwd`/sources/meta-tid/conf MACHINE=udoo-quad source setup-environment build
 bitbake minixbmc
+``` 
 
 You can use any directory to host your build.
 
