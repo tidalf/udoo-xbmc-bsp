@@ -4,6 +4,9 @@
 This BSP use freescale's one and add support for udoo board and xbmc 
 It's forked from the work of Wolfgar (https://github.com/wolfgar) and Rehsack (https://github.com/rehsack)
 
+The meta-tid layer is here : http://github.com/tidalf/meta-tid
+It contains (u-boot config for udoo, wolfgar's recipes and some additionnals related to xbmc)
+
 You can learn Yocto here : http://www.yoctoproject.org/docs/current/yocto-project-qs/yocto-project-qs.html
 
 If you want to try without reading you can on debian or ubuntu install the required packages like that : 
