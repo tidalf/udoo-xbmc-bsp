@@ -25,5 +25,5 @@
 
   <project remote="OSSystems" revision="master" name="meta-browser" path="sources/meta-browser" />
 
-  <project remote="tidalf" revision="daisy" name="meta-tid" path="sources/meta-tid"/>
+  <project remote="tidalf" revision="daisy-3.10.17" name="meta-tid" path="sources/meta-tid"/>
 </manifest>
