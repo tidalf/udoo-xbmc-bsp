@@ -30,7 +30,9 @@ we remove the original bblayers.conf so the one in meta-tid/conf is used
 ``` 
 rm sources/base/conf/bblayers.conf                 
 TEMPLATECONF=`pwd`/sources/meta-tid/conf MACHINE=udoo-quad source setup-environment build
-bitbake minixbmc
+bitbake xbmc-image-nodev-nodaemon # nothing but xbmc
+bitbake xbmc-image-nodev # with p2p services 
+bitbake xbmc-image-full # with services and devtools
 ``` 
 
 You can use any directory to host your build.
