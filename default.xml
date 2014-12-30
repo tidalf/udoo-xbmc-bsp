@@ -13,7 +13,7 @@
 
   <project remote="oe" revision="dizzy" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="yocto" revision="dizzy" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="yocto" revision="master" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
   <project remote="freescale" revision="master" name="fsl-community-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
