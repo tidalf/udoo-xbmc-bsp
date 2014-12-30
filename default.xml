@@ -15,13 +15,13 @@
 
   <project remote="yocto" revision="dizzy" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
-  <project remote="freescale" revision="dizzy" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="freescale" revision="master" name="fsl-community-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="dizzy" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="freescale" revision="dizzy" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="freescale" revision="master" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="freescale" revision="master" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
 
   <project remote="OSSystems" revision="master" name="meta-browser" path="sources/meta-browser" />
 
