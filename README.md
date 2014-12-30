@@ -20,7 +20,7 @@ Download the BSP source:
 PATH=${PATH}:~/bin
 mkdir udoo-xbmc-bsp
 cd udoo-xbmc-bsp
-repo init -u https://github.com/tidalf/udoo-xbmc-bsp -b daisy-3.10.17
+repo init -u https://github.com/tidalf/udoo-xbmc-bsp -b dizzy
 repo sync
 ``` 
 
